@@ -25,7 +25,7 @@ export default function Products() {
           >
             <CardMedia
               sx={{ pt: "56.25%" }}
-              image={product.images}
+              image={`https://source.unsplash.com/collection/10260627/480x480?${index}`}
               title="Image title"
             />
             <CardContent sx={{ flexGrow: 1 }}>
